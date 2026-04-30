@@ -1,0 +1,16 @@
+// --- 1. 核心變數與工具
+@import "helper/variables";
+// ---2. 外部資源
+@import "bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+TC:wght@400;700&display=swap");
+//引入 Google Fonts (包含中文字體 Noto Sans TC 與英文字體 Montserrat)
+
+// --- 3. Base 基礎設定
+@import "base/base";
+
+// --- 4. Components 元件 (全站通用的組件)
+
+
+// --- 5. Pages 頁面級別 (特定頁面的特殊樣式)
+@import "pages/frontLayout";
+@import "pages/home";

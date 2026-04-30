@@ -1,0 +1,35 @@
+$my-custom-green: #629173;
+$my-custom-red: #924d56;
+$my-custom-blue: #4d6692;
+$my-custom-secondary: #8a919e;
+$color-primary-100:#FDFBF7;
+// $color-primary-200:#57634E;
+$color-primary-200: rgb(194 239 174);
+$color-primary-300:rgb(201, 158, 113);
+$color-primary-500:#78866B;
+$color-primary-900:rgb(67 72 63);
+// $color-primary-300:#709F64;
+// $color-primary-400:#375B2D;
+// $color-primary-500: #2C4C23;
+// $color-secondary-100:#e5e5cc;
+// $color-secondary-200:#e5e5cc;
+// $color-secondary-300:#e5e5cc;
+
+
+$theme-colors: (
+  "primary-500":$color-primary-500,
+  "success": $my-custom-green,
+  "danger": $my-custom-red,
+  "primary": $my-custom-blue,
+  "secondary": $my-custom-secondary,
+);
+
+// 2. 定義字體變數
+$font-primary: "Noto Sans TC", sans-serif; // 主要內文、標題用
+$font-price: "Montserrat", sans-serif; // 專門給價格、數字用
+$font-serif: "Noto Serif TC", serif; // 精品感標題用 (選配)
+
+// 3. 定義常用字重 (Weight)
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-bold: 700;
