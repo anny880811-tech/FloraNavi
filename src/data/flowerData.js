@@ -28,6 +28,8 @@ export const flowerData = [
     season: [1, 2, 3],
     location: { city: '台南市', area: '楠西區', lat: 23.189, lng: 120.523 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAACiiPRX86Aedk%2fNEIdNeYjruNboZ5HKPikuiAaMxvJLwQAAAAAOgAAAAAIAACAAAABCf0ErGoYhR56PIEWkZPH3p4EwmcI1Sbfpzu9kQh8cKzAAAAAHf27UuWIsZnK2wo1Ln2WGdW0YHi6ad4hbiaUbvhCRAr8bnnSmehAW2nHAiOB8JJ9AAAAAqRgCwG1XWyLvTsesLv%2bdN7t42%2fe%2bB5flGp8gR4ddT4RBhMuh5ReuDztx%2fx4OT1ICSMTLWP8ch9nagm4mKz2Gwg%3d%3d',
+    description: '漫步南台灣古道，尋訪掩映在綠意山林中的粉嫩春櫻。',
+    content: '梅峰古道視野遼闊，沿途廣植櫻花、梅花與紫牡丹。春季造訪時，粉嫩的櫻花與翠綠的山巒交織成一幅優雅的風景畫，是南部不容錯過的賞櫻秘境。',
   },
   {
     id: 'sakura-002',
@@ -36,6 +38,8 @@ export const flowerData = [
     season: [1, 2, 3],
     location: { city: '台中市', area: '和平區', lat: 24.350, lng: 121.310 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAAAWO%2ffWBsZv9gnScJfCZ2UbyKJklbMtx0N1QhTQs6NBSAAAAAAOgAAAAAIAACAAAABnEtBGarVHIcx6m27eBEJ3u%2fBxjBowN5MptONACDzXhWAAAADGUNi03bUirK61LAWWzwSnUKF%2fpqZ%2fS9Bvkdp2hVw8Gf1U2tnt%2fEyAcHt%2b995SE%2fQoXnz4GobW%2f29c0dSIwru3y2onJKC0BU9op7MkpE9jExVojMxmPd7QGAIssRYkxItAAAAA9mwrs0aMLZMVWsjyB8srhXLEkL8%2fMfGYu70LFlPkez0z7z7q7GSOLW9W4uClfrEupqN%2bMbSAEWHHI0Zz4HWadA%3d%3d',
+    description: '全台最浪漫的櫻花饗宴，沉浸在鋪天蓋地的粉紅風暴。',
+    content: '高海拔的武陵農場擁有得天獨厚的環境，上萬株紅粉佳人櫻花盛開時，形成綿延數公里的粉紅隧道，微風吹拂下的落櫻如雪，是極致的視覺盛宴。',
   },
   {
     id: 'sakura-003',
@@ -44,6 +48,8 @@ export const flowerData = [
     season: [1, 2, 3],
     location: { city: '南投縣', area: '魚池鄉', lat: 23.870, lng: 120.945 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAAAjQz4v4C3Fp7DXxY%2f93UoZZSf9a47Q3HqPAblmdBu9%2bQAAAAAOgAAAAAIAACAAAAD%2bsz8uZEfXBrAwF6fHJ5X%2bXOWDQbTfexVIBI6NtdAcIzAAAACQvn%2fMdBUXPseI2kYxhxmsl4xtDNKefDursKBq5sLqnPITGBAybcd9m9NbHz%2b4rdpAAAAAdEX6Yw7e37lwB7NvmzC%2bb5VZZYvAWvdScU7yiBMKUJ%2ftrZUozGTbSs%2b12syQ0iBE6HZdHKi2l3fHvOOPjNCvqw%3d%3d',
+    description: '璀璨的日夜櫻景致，體驗台灣第一夜櫻的日式浪漫。',
+    content: '榮獲日本櫻花協會認證的海外賞櫻名所。數千株八重櫻、富士櫻在園區內盛放，夜間搭配光雕點燈，呈現出與白晝截然不同的奇幻迷人氛圍。',
   },
   {
     id: 'sakura-004',
@@ -52,6 +58,8 @@ export const flowerData = [
     season: [1, 2, 3],
     location: { city: '新北市', area: '三芝區', lat: 25.251, lng: 121.501 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAAB2XagETbie73MgehFDd%2bbx8rpdo4oFJfBZkEY5A4VdaAAAAAAOgAAAAAIAACAAAADBQav49M2vtHTvRGeZCIMdsRmEW3dfYKSOSq%2ftZecFBTAAAAB8u9ixSEhVTDnLAKBRcnKEuFBi%2fR6obkHvDocb0DqmfALtN2lnbkBqJaWmykMyOLVAAAAANfeyakC9PEmq3ZicsiMWBMhuMStn6SHKOQvTqpDGACoJl%2bhV5QvHHa7NCMAcf7%2bz7bMnOjLVK6NLfiZaVhfKaw%3d%3d',
+    description: '小橋流水與落櫻相伴，北海岸最溫柔的春日田園風景。',
+    content: '位於三芝的大坑溪三生步道，兼具「生態、生產、生活」意涵。步道兩旁密植昭和櫻與吉野櫻，與清澈溪流、梯田景觀相映成趣，氛圍幽靜閒適。',
   },
   {
     id: 'musk-001',
@@ -60,6 +68,8 @@ export const flowerData = [
     season: [2, 3, 4],
     location: { city: '台南市', area: '山上區', lat: 23.048, lng: 120.354 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAACjzLsli98ZB0TSOlufLISAoUsjbMrr%2fTB2dFb6VzLdngAAAAAOgAAAAAIAACAAAACH8MHx4%2f8WM2maLUlPloJ6A15eEJNyEC0VIsgC1ejftDAAAAAYTir%2b4whYCnjaImFaATG1wriDC85T6bQ1m9TH2V2tlSUAiLtg7pRjMVbvWfUJuGBAAAAAcKt7zeTThZDh6Q3nhOjn43tiDtNhW7GtghqfyioRbrAx0aYBrDBHheDkNZyU0TNXdy0wpgxE3rwk2qOyv%2bEOgQ%3d%3d',
+    description: '沉浸在薰衣草般的粉紫花海，嗅聞優雅淡雅的草本香氣。',
+    content: '隱身於台南山上的麝香木秘境，盛開時粉紫色的花穗層層疊疊，彷彿為大地披上一條夢幻的毛絨地毯，伴隨著微風吹拂散發出舒緩的植物清香。',
   },
   {
     id: 'musk-002',
@@ -68,6 +78,8 @@ export const flowerData = [
     season: [2, 3, 4],
     location: { city: '南投縣', area: '中寮鄉', lat: 23.882, lng: 120.781 },
     image_url: musk002,
+    description: '依山勢蔓延的粉紫風暴，與九重葛交織的雙色驚豔。',
+    content: '位於中寮山區的浪漫花園，最具代表性的便是沿著山坡粉嫩綻放的麝香木花海。與亮麗的九重葛高低錯落，形成強烈的視覺對比，是近年極熱門的攝影點。',
   },
 
   {
@@ -77,6 +89,8 @@ export const flowerData = [
     season: [12, 1],
     location: { city: '台南市', area: '楠西區', lat: 23.183, lng: 120.561 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAAAZUksR%2bitbw%2fiSKCVJhFTIA4r8F6rngBMXQgb4mxKWzgAAAAAOgAAAAAIAACAAAAB5xDYNiM1z1anmVyO7s7613H4tRMSJ0L4VIuUzQeGy%2bTAAAADWFprPY6NNz3Ov0BE8CwLJUHMyDCvV%2b7Xd4sOnJxdP2DAVCY6mv20SDYEXmotff7lAAAAA1H0kPXp5oLnHFJDpOlMFbI9dyZ56x5CuAXhe7%2b3EUT08s9VLldzKVIvF%2fIndiH6wvq5FM3d8NAWoaBYaOqHR4A%3d%3d',
+    description: '寒冬中的清麗隱者，滿山遍野如白雪覆蓋的蒼勁梅景。',
+    content: '南部著名的賞梅與品嚐梅子雞勝地。每年臘冬寒流來襲之際，整座山頭的梅樹紛紛吐蕊，遠望如覆白雪，空氣中凝結著淡淡的清冽梅香。',
   },
 
   {
@@ -86,6 +100,8 @@ export const flowerData = [
     season: [3, 4],
     location: { city: '台南市', area: '西港區', lat: 23.123, lng: 120.201 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAAAiuscO8JbrGg8sebMD9X9wrH8Rx%2fWCI93uR%2fhbczfx3QAAAAAOgAAAAAIAACAAAAD7LdLabe%2bChrmN2uw1xH76eqcV0sGvDjLVFn8EmEw69zAAAACMEyFKgj7coxZVmyxYR63L6Fu8v6b5aow%2bCYjbjYd9%2bqkZDLhnrtUWMwNcTIgLlstAAAAAUxWJ7pdEjKk9jjQs%2ffxHFRiuFEyMnS7wcTgfFCoZZcxAp9bBxf6%2bJgNoMZ5M53HYP3xXnuhJTPJ90ls2I%2bue4A%3d%3d',
+    description: '平原上的「四月櫻」傳奇，優雅綻放的粉紅繁花步道。',
+    content: '靜謐的社區步道旁，每到春天便被盛開的花旗木（泰國櫻花）給包圍。厚實飽滿的花串在枝頭綻放，帶著微微的幽香，為鄉野平原點綴優雅的色彩。',
   },
   {
     id: 'glory-002',
@@ -94,6 +110,8 @@ export const flowerData = [
     season: [3, 4],
     location: { city: '彰化縣', area: '二水鄉', lat: 23.812, lng: 120.612 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAABHhphrTfAbTKRb6olUJw8JL%2byr3DiKeNdt7fBDMcJ%2bJwAAAAAOgAAAAAIAACAAAACn64p3tEuFeai9Dduji%2bQRGjwXKLIdLeMbgjklTAiwNTAAAACMEf0kqaZw5pi%2fGjDQXL%2fXXcXNn868Uv%2bqFXd91%2bedSHqsjW8MR2D0KD3VdMW5x2dAAAAAPc9B3YSAHfDNjwEBHC61A8MFfOzsp7asEr6Rksju5%2fma4%2bmve%2bsrm7pYe86wrtjmGcE27ywoixuRFZ1lk1XkOg%3d%3d',
+    description: '鐵道與粉紅花海的絕美同框，捕捉集集線小火車的文青瞬間。',
+    content: '緊鄰源泉車站的自行車道旁，花旗木盛開時宛如一條粉紅隧道。當黃綠相間的集集線小火車緩緩駛過，與頭頂的粉嫩花串相映，是經典的台灣鐵道風景。',
   },
   {
     id: 'glory-003',
@@ -102,6 +120,8 @@ export const flowerData = [
     season: [3, 4],
     location: { city: '高雄市', area: '六龜區', lat: 22.955, lng: 120.627 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAACaunv7uu0knuQCmPXLWblURAl22LGA4sHVAtQtFn7zhQAAAAAOgAAAAAIAACAAAACTP6WBtFTOs6K3ldiGModvmXQ5IF00Se9870lwlo9aozAAAACGeP2SC%2bZSU%2bOsdU5OEtZfEsmAS%2bWhTxw6MAclRva2LxVqtQd2qFNnlUzRy7vwesBAAAAA801K6oY%2b5cvvY8m11vGFu5o0dPoBNZv97Js9HayyMg13Gf3EunJRAdQ9c0Tpfy3BQeCHi3Y3kviktSCzqcHW8A%3d%3d',
+    description: '莊嚴道場中的粉紅綠洲，全台最大規模的花旗木森林。',
+    content: '位於六龜的神威天台山道場，擁有一片極具規模的花旗木園區。廣闊的綠色草皮上，高大挺拔的花旗木滿開粉紅花朵，環境宏偉肅穆卻不失春意柔美。',
   },
 
   {
@@ -111,6 +131,8 @@ export const flowerData = [
     season: [4, 5],
     location: { city: '苗栗縣', area: '三灣鄉', lat: 24.639, lng: 120.975 },
     image_url: tung001,
+    description: '暮春時節的「五月雪」，走入如夢似幻的白毯林道。',
+    content: '神棹山桐花步道環境幽靜、富含芬多精。每逢四、五月，雪白的油桐花如雪片般飄落，鋪滿古樸的石階步道，彷彿走進了山林間的童話精靈世界。',
   },
   {
     id: 'tung-002',
@@ -119,6 +141,8 @@ export const flowerData = [
     season: [4, 5],
     location: { city: '台中市', area: '外埔區', lat: 24.341, lng: 120.672 },
     image_url: tung002,
+    description: '舊鐵道與落桐相伴，還能俯瞰高鐵疾馳的奇幻觀景台。',
+    content: '這裡曾是外埔的秘境，步道旁的水流東圳綠意盎然。春天時落桐點綴在圳道與步道上，步道終點設有高鐵觀景台，能同時體驗落花浪漫與速度張力。',
   },
 
   {
@@ -128,6 +152,8 @@ export const flowerData = [
     season: [2, 3],
     location: { city: '台中市', area: '北屯區', lat: 24.164, lng: 120.732 },
     image_url: trumpet001,
+    description: '台中最耀眼的金色公園，春季限定的純黃色系美學。',
+    content: '被譽為台中最美的黃金公園。春初之際，公園內數以百計的黃花風鈴木同步炸裂盛開，金黃色的花球掛滿枝頭，落地更成金色地毯，極具都會療癒感。',
   },
   {
     id: 'trumpet-002',
@@ -136,6 +162,8 @@ export const flowerData = [
     season: [2, 3],
     location: { city: '嘉義市', area: '東區', lat: 23.461, lng: 120.468 },
     image_url: trumpet002,
+    description: '綿延溪畔的黃金巨龍，帶有純粹大地力量的耀眼金黃。',
+    content: '位於嘉義市軍輝橋旁的八掌溪堤防，每逢花季便化身為一條長長的黃金花帶。一邊是平靜的溪流，一邊是爆開的耀眼黃花，展現強烈而純粹的季節生命力。',
   },
 
   {
@@ -145,6 +173,9 @@ export const flowerData = [
     season: [5, 6, 7],
     location: { city: '台中市', area: '和平區', lat: 24.350, lng: 121.310 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAABN4L0qPS%2bpERIM7Etnc76zPSFPHAKNOYatVZ6QeAN9EgAAAAAOgAAAAAIAACAAAAAapg6fTgMHxWrizYP0ClAIBfoC6Cl57VhVkVJr1MNnSzAAAADzvzriNZJMap9Mt3VQGIbaJf%2bNITJ7AkcdVtfncZar0JQ2f6DAIapFzNSBMuPH%2fVNAAAAAIOQyYihhz5%2f87T%2fGl01FqTq%2bvBsNdik6eyj3hg9RHUoVkUEn5ygI3UDAw8SXmIt%2bxsyiUCXbDJo0vbJJ0XED9w%3d%3d',
+
+    description: '避暑勝地的山林驚喜，高山特有的飽滿粉藍花牆。',
+    content: '初夏的武陵農場由繡球花接棒，受惠於高海拔低溫，這裡的繡球花花球特別碩大、顏色飽滿。藍紫色與粉紅色的花朵在林蔭間綻放，是夏日消暑的絕佳視覺調劑。',
   },
   {
     id: 'hydrangea-002',
@@ -153,6 +184,8 @@ export const flowerData = [
     season: [5, 6, 7],
     location: { city: '台北市', area: '北投區', lat: 25.172, lng: 121.536 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAABa6OYauqRq7rE6r5%2b2Xhk%2f0MvXXF%2bYio8XbYri568kLQAAAAAOgAAAAAIAACAAAABdmmmYZDGjXkJQWvjAe%2fjO%2bjK1rjA19akovlpQw1TAvzAAAAA4DVZRUGSayChXo4LFM5N2VTuIXf1TBLPlruJpQW4TCbpksTDY2owb13SmiNwWiX5AAAAAo5pjgDewkt3uaDv3nQW%2fs5jRE%2fvWw2zeHQhA55Mv2pnaHZJgwM4bDTACdz2bSt7g4JZIjBUdKYONuPwvGZHUJg%3d%3d',
+    description: '被群山火山環繞的夢幻梯田，迷霧與紫藍繡球花共舞。',
+    content: '竹子湖的繡球花田依地形交錯分布。每當午後陽明山區常有的濃霧升起，裊裊白霧穿梭在層層交疊的無邊際紫藍色花牆中，呈現出一種神秘而高質感的仙境氛圍。',
   },
 
   {
@@ -162,6 +195,8 @@ export const flowerData = [
     season: [3, 4],
     location: { city: '台南市', area: '白河區', lat: 23.377, lng: 120.409 },
     image_url: kapok001,
+    description: '榮登全球最美花道之一，縱橫於鄉野間的火紅詩篇。',
+    content: '白河林初埤周邊的木棉花道，曾被國外媒體選為世界最美林蔭大道之一。春季兩側木棉樹換上熱情的橘紅外衣，倒映在兩側尚未插秧的水田上，充滿寧靜的台灣農村之美。',
   },
   {
     id: 'kapok-002',
@@ -170,6 +205,8 @@ export const flowerData = [
     season: [3, 4],
     location: { city: '台南市', area: '白河區', lat: 23.378, lng: 120.410 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAACwUqNbcWKsYB1gwby7EE%2bi1aYnOHkwrbjEbAOLCyRWoQAAAAAOgAAAAAIAACAAAAAWesU1HOm26mQG6j6qjOJ4saU7xXjWzGuma4w2xappczAAAAAUs%2bA4G0zUx7n6HdlmUPP0KZ6OGGSL0z7MmJzfv3ddZi79vibrAFKuYLjK2lAMQA5AAAAA%2bMtO3eoQ6VjPdzsM3cEbPPtQ68WZmbr%2fye7U8H7Q9YDZhOHgSb7J99Jat2pNy5F8dIwoBkdgqq8NFWMP0SLSIQ%3d%3d',
+    description: '水天一色的紅木棉倒影，靜謐而熱烈的水畔風景。',
+    content: '圍繞著林初埤水畔，落葉後的木棉花開得更加沉穩熱烈。推薦在清晨造訪，看著晨霧、水鳥與火紅木棉構成的靜謐生態畫面，體驗獨特的植物色彩美學。',
   },
 
   {
@@ -179,6 +216,8 @@ export const flowerData = [
     season: [11, 12],
     location: { city: '宜蘭縣', area: '頭城鎮', lat: 24.985, lng: 121.921 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAAAGDTaJ5KQsB%2fKxYUDNyAkZ7YWVzY6T0dXSZMldoZ7adwAAAAAOgAAAAAIAACAAAAAGY5JIxkbqPoxKUZihKAR2B4J2WIV0dPG2BAZm%2fV3oomAAAABRIfQi2y974XF2Z730QqHF9p5VjpEYS4iMEdFRFzlROWhAzooFCD0BsdVEAyol4CBXsHoF%2bFdOcftS8pHE%2bCIgGt4FXus6Ck3OKVH92VZ9FbMO6in7AMFYGzhFXxoBp%2fVAAAAANIIE2mKn7KHpQLhAUrdkaPywT%2fKlzHOTt2HYZkYH%2bR8ZccW5C2Z9Hc5YMIxaS38fnoye7g2MRXkYftZOiGLcTw%3d%3d',
+    description: '秋風拂過的銀白浪花，山海交界處的寂靜與蒼茫。',
+    content: '橫跨新北與宜蘭的草嶺古道，深秋時節漫山遍野的芒花盛開。當東北季風吹拂，銀白色的芒草如波浪般在山谷間翻滾，遠眺大里海面與龜山島，充滿寂靜遼闊的文藝感。',
   },
 
   {
@@ -188,6 +227,8 @@ export const flowerData = [
     season: [5, 6],
     location: { city: '屏東縣', area: '內埔鄉', lat: 22.651, lng: 120.612 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAAB%2fxoW%2bPdaOPAItOk3t%2bnPKe%2fD8hFEMhlZkx74oP4fESgAAAAAOgAAAAAIAACAAAACnzVbbekAlyXORLMAMqF97P%2bQ9Fx1wTKqdhbItt0yxhTAAAACDRDTkWIOfUAwZ8oqiX4JuNxFIrVsfLSETzZkTFdr%2bbhzzgvMSHr%2fzvenaEUGCW%2b5AAAAAYO8jcsfE2Psk63Dp6R2REIPz9DEPNRw5TXHrIcMFAX7IslKtzMHXyIzo9LW7bwIaXDDi0wC9RtD%2bgYy%2bpzI0Qw%3d%3d',
+    description: '初夏暖陽下的「黃金雨」，洗滌心靈的溫馨悠閒聚落。',
+    content: '屏東內埔榮民之家園區內設有一條阿勃勒黃金隧道。每到五、六月，成串的金黃色花序隨風搖曳，花瓣如雨般飄落在安靜的道路上，氛圍祥和且帶著淡淡的暖意。',
   },
   {
     id: 'gold-002',
@@ -196,6 +237,8 @@ export const flowerData = [
     season: [5, 6],
     location: { city: '台中市', area: '南區', lat: 24.121, lng: 120.675 },
     image_url: gold002,
+    description: '校園旁的城市金色藝廊，陽光灑落的午後漫步首選。',
+    content: '位於中興大學旁的綠園道，兩側的阿勃勒在梅雨季過後迎來大滿開。金黃鮮明的小花與高大的綠樹、城市的現代建築交織，形成一幅極具生活質感的都會夏日街景。',
   },
   {
     id: 'cypress-004',
@@ -204,6 +247,8 @@ export const flowerData = [
     season: [1, 2],
     location: { city: '桃園市', area: '大溪區', lat: 24.891, lng: 121.295 },
     image_url: cypress004,
+    description: '冬日限定的莫蘭迪色交響樂，倒映在靜謐濕地的漸層羽葉。',
+    content: '桃園大溪的月眉濕地，近年因整排種植於水畔的落羽松而聞名。冬季時，松葉由綠轉黃、再轉為沉穩的紅褐色，與埤塘水面的倒影相呼應，極具層次與空間美感。',
   },
   {
     id: 'cypress-002',
@@ -212,6 +257,8 @@ export const flowerData = [
     season: [1, 2],
     location: { city: '台中市', area: '后里區', lat: 24.312, lng: 120.736 },
     image_url: cypress002,
+    description: '走進歐洲童話森林，隱身於后里田野間的紅褐色魔幻世界。',
+    content: '這座位於后里泰安國小旁的落羽松林，規劃有乾淨的林間步道與水池。冬日暖陽穿透高聳的落羽松樹冠，將大地染成一片溫暖的橙紅色調，充滿異國浪漫風情。',
   },
   {
     id: 'cypress-003',
@@ -220,6 +267,8 @@ export const flowerData = [
     season: [1, 2],
     location: { city: '台中市', area: '后里區', lat: 24.324, lng: 120.701 },
     image_url: cypress003,
+    description: '筆直綿延的北歐風情大道，以巨大摩天輪為背景的壯麗冬景。',
+    content: '長達一公里的筆直落羽松大道，兩側整齊排列著高大的松樹。冬季造訪時，可以拍到綿延不絕的紅褐色樹冠，與遠方巨大的麗寶摩天輪同框，具備大氣、現代的視覺張力。',
   },
   {
     id: 'cypress-001',
@@ -228,6 +277,8 @@ export const flowerData = [
     season: [1, 2],
     location: { city: '新北市', area: '貢寮區', lat: 25.018, lng: 121.912 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAADRPdBbbOySPDEPliyGXv34oQrPkMEKwNHBbJP8usa%2bXgAAAAAOgAAAAAIAACAAAADWFgbNuV4dir81i41qxGvUGZSj3GxUTFkMxm%2bLK7AVEzAAAAAIsnR3xaxJz1VoKvB6UiRxd2Idn7gV2JpgzSfBxrzc6EQvfXRLif6hxyokUjfxsAJAAAAAv5fJZiX6i7DE%2f%2bjKucqtYn8lT3ex84jlTOxcJIr4cWgX0Dw8KWgAQPpGmQxe6fjoXyVQxErJDQOLvG68JBgohQ%3d%3d',
+    description: '北海岸的幽靜角落，遠離喧囂的沉靜落羽松森林。',
+    content: '相較於熱門景點，貢寮環保公園的落羽松區顯得低調而純粹。開闊的草地上聳立著色彩轉紅的松樹，在這裡可以安靜地享受冬日冷冽卻乾淨的自然氛圍。',
   },
   {
     id: 'cypress-005',
@@ -236,6 +287,8 @@ export const flowerData = [
     season: [1, 2],
     location: { city: '台南市', area: '六甲區', lat: 23.235, lng: 120.352 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAACF7L%2f7ixl73%2fUHN3PTVhSK1lYqxIwD8DcLMpaznEQ%2bTwAAAAAOgAAAAAIAACAAAAAcOGj0vIioYkYEHWPxmm6255V%2ftU%2b6gWLApwDQbWJEFjAAAAAM5vDIz6RXuOX6OiUBsaXQMTvsmOAtO8iBJkmR%2fN%2bppm%2b%2blxnfyDHxfE4FMkbCP2tAAAAA8iiRiRH%2fzQY18Jgo6%2f0TjKwsEEAij1wY8SKLM3hGPxCBKm0nZTAwfseYsafx1XnQWWkHTLNuHLSvwYwhcAc%2bdQ%3d%3d',
+    description: '冷暖色調的完美交織，南部平原上最受矚目的冬季漸層。',
+    content: '位於菁埔埤旁的六甲落羽松，因為南部冬日充足的陽光，呈現出翠綠、金黃、亮橘與鐵鏽紅四色並存的獨特奇景。與周邊的油菜花田相映，生機盎然。',
   },
 
   {
@@ -245,6 +298,8 @@ export const flowerData = [
     season: [5, 6, 7, 8, 9, 10, 12, 1, 2],
     location: { city: '桃園市', area: '觀音區', lat: 25.025, lng: 121.045 },
     image_url: 'https://images.pexels.com/photos/18540028/pexels-photo-18540028.jpeg',
+    description: '永遠迎向陽光的正能量花海，巨型向日葵帶來的純粹喜悅。',
+    content: '北台灣最大的向日葵主題農場。這裡栽培了多種特殊品系的向日葵，盛開時一片金黃燦爛，高過人頭的花朵在大地展現著無與倫比的陽光活力。',
   },
 
   {
@@ -254,6 +309,8 @@ export const flowerData = [
     season: [11, 12, 1],
     location: { city: '宜蘭縣', area: '大同鄉', lat: 24.385, lng: 121.304 },
     image_url: maple001,
+    description: '高山聖稜線下的深紅洗禮，感受最純粹的寒林楓紅。',
+    content: '在雪霸高海拔的寒冷空氣中，楓葉轉紅得格外純粹與深邃。清晨的霜氣籠罩在火紅的青楓與楓香樹林間，是台灣高山秋末冬初最具震撼力的自然景緻。',
   },
   {
     id: 'maple-002',
@@ -262,6 +319,8 @@ export const flowerData = [
     season: [11, 12, 1],
     location: { city: '台中市', area: '和平區', lat: 24.350, lng: 121.310 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAADG21BZ7O7S%2b2KHvWpstJzUmg82fh7xwsOoUvvvft%2fVwQAAAAAOgAAAAAIAACAAAAAIykL4oWKk0pes7%2fhKhCekisuqFPAhViWkyDPEVq0XszAAAABKRea47ZgAHVvbQMQpXXgVEmSbIZqN6PmUG7YYDuuYnBSFDLI3So9W%2bCVKCwRbdkBAAAAApgcHpql6p%2fPafRYHuL6%2fSlxYD%2bSOUelrVF3zpfwHu6Syy9UbXhdzy%2bPF3rUYbsPyfxmRfwLV6%2bPoT7mVCbOuIA%3d%3d',
+    description: '溪谷、木屋與紅楓，如同置身加拿大山郡的秋日風情。',
+    content: '武陵的秋天是由落羽松、銀杏與紅楓共同釀造。七家灣溪畔與露營區周邊，各種台灣原生與外來楓樹錯落轉紅，將整個山谷染成層次豐富的暖色調調色盤。',
   },
 
   {
@@ -271,6 +330,8 @@ export const flowerData = [
     season: [1, 2],
     location: { city: '台中市', area: '后里區', lat: 24.331, lng: 120.728 },
     image_url: tulip001,
+    description: '不用飛歐洲的鬱金香狂歡節，色彩濃郁的歐式花園。',
+    content: '中社花市每年冬末春初自歐洲引進數十萬株、多品種的鬱金香。紅、黃、紫、粉的鬱金香在歐式風車背景前整齊綻放，色彩飽和度極高，極具節慶張力。',
   },
   {
     id: 'tulip-002',
@@ -279,6 +340,8 @@ export const flowerData = [
     season: [1, 2],
     location: { city: '南投縣', area: '竹山鎮', lat: 23.637, lng: 120.796 },
     image_url: 'https://images.pexels.com/photos/103573/pexels-photo-103573.jpeg',
+    description: '山霧裊裊中的高山溫帶鬱金香，帶有高冷質感的典雅。',
+    content: '利用高海拔溫帶氣候培育，杉林溪的鬱金香花期早且花型極為挺拔。在蓊鬱的杉木林與溪流旁，溫帶鬱金香優雅吐蕊，呈現出與平地截然不同的靈動高貴質感。',
   },
 
   {
@@ -288,6 +351,8 @@ export const flowerData = [
     season: [5, 6, 7],
     location: { city: '彰化縣', area: '彰化市', lat: 24.079, lng: 120.548 },
     image_url: phoenix001,
+    description: '穿梭在鳳凰木樹冠間，以全新視角體驗仲夏的火熱畢業季。',
+    content: '全台最長的天空步道，在初夏時節轉身變為「賞花空中走廊」。遊客能以平視甚至俯瞰的視角，近距離欣賞鳳凰木梢如火焰般爆開的鮮紅花序，極具視覺衝擊力。',
   },
   {
     id: 'phoenix-002',
@@ -296,6 +361,8 @@ export const flowerData = [
     season: [5, 6, 7],
     location: { city: '嘉義縣', area: '梅山鄉', lat: 23.585, lng: 120.555 },
     image_url: phoenix002,
+    description: '老公園的季節變奏曲，山坡上綠意與豔紅的熱烈交織。',
+    content: '依山勢而建的梅山公園，除了冬梅，初夏的鳳凰花也同樣壯觀。高大的鳳凰老樹在綠色山坡上吐露艷麗紅花，為這座歷史悠久的公園注入屬於盛夏的狂熱靈魂。',
   },
 
   {
@@ -305,6 +372,8 @@ export const flowerData = [
     season: [11, 12, 1, 2, 3, 4],
     location: { city: '苗栗縣', area: '頭屋鄉', lat: 24.582, lng: 120.871 },
     image_url: 'https://images.pexels.com/photos/4656006/pexels-photo-4656006.jpeg',
+    description: '全台最大規模齒葉薰衣草田，純粹、療癒的台版普羅旺斯。',
+    content: '廣達七千坪的香草田，種植了逾萬株的齒葉薰衣草。每逢春季，深紫色的花海在明媚陽光下盛開，空氣中瀰漫著濃郁純淨的植物精油香氣，身心皆得療癒。',
   },
   {
     id: 'lavender-002',
@@ -313,6 +382,8 @@ export const flowerData = [
     season: [11, 12, 1, 2, 3, 4],
     location: { city: '台中市', area: '新社區', lat: 24.148, lng: 120.844 },
     image_url: 'https://images.pexels.com/photos/4242700/pexels-photo-4242700.jpeg',
+    description: '深山中的浪漫美學莊園，尋回生活本質的紫色許願諾言。',
+    content: '隱身新社山區的經典美學園區。圍繞著山丘種植的甜蜜薰衣草，與木質調建築、森林小徑相襯。當微風吹過紫色山丘，讓人忘卻都市喧囂，重拾平靜。',
   },
 
   {
@@ -322,6 +393,8 @@ export const flowerData = [
     season: [9, 10, 11],
     location: { city: '彰化縣', area: '北斗鎮', lat: 23.868, lng: 120.522 },
     image_url: beauty001,
+    description: '秋季限定的「美人花道」，粉紅黛綠交織的河畔絕景。',
+    content: '位於北斗舊濁水溪畔，兩岸種滿了姿態優雅的美人樹。秋季時粉紅色的花朵盛開，花瓣飄落於平靜的河面上，遠望宛如日本目黑川的春櫻倒影，被譽為北斗的秋日名物。',
   },
 
   {
@@ -331,6 +404,8 @@ export const flowerData = [
     season: [6, 7, 8, 9],
     location: { city: '南投縣', area: '南投市', lat: 23.957, lng: 120.686 },
     image_url: lotus001,
+    description: '椰林大道旁的幽雅荷塘，與眷村老時光共構的優雅晨景。',
+    content: '中興新村省府路旁的椰林荷花池，是台灣夏日的經典風景。清晨時分，粉紅的荷花在舒展開來的翠綠荷葉中甦醒吐蕊，搭配一旁的紅磚老眷村，散發優雅內斂的文青感。',
   },
   {
     id: 'lotus-002',
@@ -339,6 +414,8 @@ export const flowerData = [
     season: [6, 7, 8, 9],
     location: { city: '台南市', area: '白河區', lat: 23.351, lng: 120.415 },
     image_url: lotus002,
+    description: '台灣蓮鄉的極致風情，無邊際綠浪中搖曳的傲然清荷。',
+    content: '專為賞蓮設計的生態公園，設有古樸的木棧道與賞蓮亭。仲夏時節百蓮齊放，大片翠綠的荷葉隨風翻湧，將白河的土地點綴得優雅而富有夏日情懷。',
   },
 
   {
@@ -348,6 +425,8 @@ export const flowerData = [
     season: [8, 9],
     location: { city: '花蓮縣', area: '富里鄉', lat: 23.220, lng: 121.314 },
     image_url: lily001,
+    description: '天使鋪在地上的黃金地毯，花東縱谷最震撼的忘憂山谷。',
+    content: '被譽為台灣的瑞士。盛夏時，整座山頭被金黃色的針花海完整覆蓋，當午後的「耶穌光」穿透雲霧灑落在起伏的金黃山丘與歐風涼亭上，美得令人屏息。',
   },
   {
     id: 'lily-002',
@@ -356,6 +435,8 @@ export const flowerData = [
     season: [8, 9],
     location: { city: '花蓮縣', area: '玉里鎮', lat: 23.389, lng: 121.389 },
     image_url: lily002,
+    description: '黑色大石與黃金花海的靜謐對話，展現土地原生的堅韌之美。',
+    content: '相較於六十石山的遼闊，赤科山多了一分精緻與寧靜。最具代表性的「三巨石」散落在金黃色山坡上，與盛開的金針花、錯落的木造農舍交織成質樸溫潤的鄉野畫面。',
   },
   {
     id: 'lily-003',
@@ -364,6 +445,8 @@ export const flowerData = [
     season: [8, 9],
     location: { city: '台東縣', area: '太麻里鄉', lat: 22.651, lng: 121.002 },
     image_url: lily003,
+    description: '日出之鄉的黃金冠冕，俯瞰太平洋湛藍的絕美高山花海。',
+    content: '位於太麻里的金針山海拔較高，由於能直接眺望湛藍的太平洋，金黃色的花海與深藍色的海平線在視線盡頭交會，是全台唯一能同時看海與賞金針花的視覺絕景。',
   },
 
   {
@@ -373,6 +456,8 @@ export const flowerData = [
     season: [8, 9, 10],
     location: { city: '台南市', area: '大內區', lat: 23.116, lng: 120.355 },
     image_url: 'https://media.taiwan.net.tw/zh-tw/Portal/Media/EncryptedCoverImage?f=AQAAANCMnd8BFdERjHoAwE%2fCl%2bsBAAAAGTAmk4ub5k6P0R8EciaYDwAAAAACAAAAAAAQZgAAAAEAACAAAAAYYA3Tt7IuJP9LyCNrwRgpJmcPyTXlgkVPEwIJrE1SNwAAAAAOgAAAAAIAACAAAAAa80r3V8aS90mqpn%2fOVlyP2GP24iGSEHyfV4TZjx9rtDAAAADSCH3mg7o4xneCGi2CZ8HBYlyO8GftXRItgILQakXj3OP31saPZh4zrXHNVEp%2bFkJAAAAAsPLS47wZGu3Yp6crlvf4qZKyuBtESTS5RMmVxGvbxdHF3y6X4OntNf8B7bBewGh%2f7UCE0As2A8HlVI9B6N2QRg%3d%3d',
+    description: '秋日溪畔的「九月雪」，展現蒼茫乾淨的大地極簡美學。',
+    content: '曾文溪畔的大內橋旁，每逢秋初，河床便會被大片雪白的甜根子草（俗稱芒草花）完全攻佔。白茫茫的花海隨風如浪般翻滾，給人一種孤寂卻優雅的極簡視覺感受。',
   },
   {
     id: 'grass-002',
@@ -381,5 +466,7 @@ export const flowerData = [
     season: [8, 9, 10],
     location: { city: '嘉義市', area: '東區', lat: 23.456, lng: 120.472 },
     image_url: grass002,
+    description: '城市邊緣的銀白地毯，夕陽與芒浪交織的魔幻時刻。',
+    content: '位於八掌溪畔的甜根子草花海，交通便利。傍晚時分，銀白色的花穗在金色夕陽的斜射下轉為溫暖的古銅金，與遠處的鐵橋、城市天際線共構出豐富的層次感。',
   },
 ]
