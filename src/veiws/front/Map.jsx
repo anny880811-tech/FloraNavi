@@ -1,44 +1,47 @@
-// const Map = () => {
-//   return (
-//     <div className="flower-map-layout">
-//       {/* 側邊欄：可以放妳的月份、地區篩選器（原本的實驗/新功能邏輯） */}
-//       <aside className="map-sidebar">
-//         <h2>賞花探索地圖</h2>
-//         {/* 篩選功能元件放置處 */}
-//       </aside>
-
-//       {/* 地圖主體：剛才提供的 Google Maps 渲染區塊 */}
-//       <main className="map-main-content">
-//         {/* <APIProvider> 與 <Map> 塞在這裡 */}
-//       </main>
-//     </div>
-//   )
-// }
-
-// export default Map
-
-import React from 'react'
-import { APIProvider, Map as GoogleMapComponent } from '@vis.gl/react-google-maps'
+import { APIProvider, Map as GoogleMap, AdvancedMarker, Pin } from '@vis.gl/react-google-maps'
+import { flowerData } from '../../data/flowerData'
 
 const Map = () => {
+  // 1. 修正：正確讀取環境變數
   const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY
-
-  // 預設中心點設在台灣
   const defaultCenter = { lat: 23.973875, lng: 120.982024 }
 
-  if (!apiKey) {
-    return <div style={{ color: 'red', padding: '20px' }}>提示：請先在 .env.local 設定 VITE_GOOGLE_MAPS_API_KEY</div>
-  }
-
   return (
-    <div style={{ width: '100%', height: '500px', border: '1px solid #ccc' }}>
-      <APIProvider apiKey={apiKey}>
-        <GoogleMapComponent
-          defaultCenter={defaultCenter}
-          defaultZoom={8}
-          mapId="DEMO_MAP_ID" // 測試用 ID
-        />
-      </APIProvider>
+    // 2. 補上行內樣式防禦，確保一定有高寬，避免 CSS 沒吃到導致塌陷
+    <div className="flower-map-layout" style={{ display: 'flex', width: '100%', height: 'calc(100vh - 64px)' }}>
+      {/* 側邊欄 */}
+      <aside className="map-sidebar" style={{ width: '360px', padding: '24px', background: '#fcfbfa' }}>
+        <h2 className="sidebar-title">尋找花緒</h2>
+        <div className="filter-group">
+          <p style={{ color: '#666', fontSize: '14px' }}>篩選元件預留區...</p>
+        </div>
+      </aside>
+
+      {/* 地圖主體 */}
+      <main className="map-main-content" style={{ flex: 1, height: '100%' }}>
+        <APIProvider apiKey={apiKey}>
+          <GoogleMap
+            defaultCenter={defaultCenter}
+            defaultZoom={8}
+            mapId="DEMO_MAP_ID"
+            style={{ width: '100%', height: '100%' }}
+          >
+            {flowerData.map(item => (
+              <AdvancedMarker
+                key={item.id}
+                position={item.location}
+                title={item.title}
+              >
+                <Pin
+                  background="rgb(201, 158, 113)"
+                  borderColor="#8c5e5e"
+                  glyphColor="#ffffff"
+                />
+              </AdvancedMarker>
+            ))}
+          </GoogleMap>
+        </APIProvider>
+      </main>
     </div>
   )
 }
