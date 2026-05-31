@@ -1,33 +1,82 @@
-// @include media-breakpoint-up(md) {
-// }
+.map-page {
+  height: calc(100vh - 70px);
+  overflow: hidden;
+  flex: 1;
+}
+
 .map-sidebar {
-  width: 360px;
-  padding: 24px;
+  padding: 20px;
+  overflow: hidden;
 
   .block-custom {
     background-color: $color-secondary-100;
-    padding: 1rem 2rem 2rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     border-radius: 1rem;
   }
 
-  h2 {
+  h4 {
     color: $color-primary-900;
     font-weight: 800;
   }
 
   p {
     color: #3f3f3f;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
   }
 
   .filter-group {}
 
+  .map-cardList-custom {
+    height: calc(100vh - 330px);
+    overflow-y: auto;
+    overflow-x: clip;
+    padding: 0.8rem 0.5rem 1rem 1rem;
+    background-color: $color-secondary-100;
+    scrollbar-gutter: stable;
+    border-radius: 1rem;
+    flex: 1;
+
+    &::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba(130, 116, 69, 0.2);
+      border-radius: 4px;
+    }
+
+    &::-webkit-scrollbar-track {
+      margin: 1rem;
+    }
+
+    .map-cardList {
+      display: flex;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .flower-img {
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+      border-radius: 0.5rem 0 0 0.5rem;
+    }
+
+    .card-content {
+      padding: 0.5rem 0.5rem;
+      background-color: #f2f2ef;
+      width: 100%;
+      border-radius: 0 0.5rem 0.5rem 0;
+
+      * {
+        margin: 0; // 用 * 一次清除所有子元素的 margin
+      }
+    }
+  }
 }
 
 .map-main-content {
-  width: 100%;
   height: 100vh;
-  flex: 1;
   overflow: hidden;
 }
 
