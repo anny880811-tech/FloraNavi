@@ -8,29 +8,42 @@ const Map = () => {
   const [showCard, setShowCard] = useState(null)
   const cityList = [...new Set(flowerData.map(item => item.location.city))]
   const flowerList = [...new Set(flowerData.map(item => item.flower_name))]
-
+  // const flowerCardList = flowerData
   return (
-    <div className="container mt-5">
+    <div className="container map-page">
       <div className="row mt-6">
-        <aside className="d-none d-md-block col-md-5 map-sidebar">
+        <aside className="d-none d-md-block col-md-4 map-sidebar">
           <div className="block-custom">
-            <h2 className="sidebar-title mb-4">尋找花緒</h2>
+            <h4 className="sidebar-title mb-2">尋找花緒</h4>
             <div className="filter-group">
               <p>地區搜尋</p>
-              <select className="form-select select-city mb-4" aria-label="Default select example">
-                <option selected disabled>請選擇地區</option>
+              <select className="form-select select-city mb-2" aria-label="Default select example" defaultValue="">
+                <option value="" disabled hidden>請選擇地區</option>
                 {cityList.map((city, index) => { return <option value={index} key={index}>{city}</option> })}
               </select>
               <p>花種搜尋</p>
-              <select className="form-select select-flower" aria-label="Default select example">
-                <option selected disabled>請選擇花種</option>
+              <select className="form-select select-flower" aria-label="Default select example" defaultValue="">
+                <option value="" disabled hidden>請選擇花種</option>
                 {flowerList.map((flower, index) => { return <option value={index} key={index}>{flower}</option> })}
               </select>
             </div>
           </div>
+          <div className="map-cardList-custom mt-3">
+            <h4>花緒落點</h4>
+            {flowerData.map((item, index) => {
+              return (
+                <div className="map-cardList mb-2" key={index}>
+                  <div><img src={item.image_url} alt="花種卡片" className="flower-img" /></div>
+                  <div className="card-content">
+                    <h5>123</h5>
+                    <div>123</div>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
         </aside>
-
-        <main className="col-12 col-md-7 map-main-content">
+        <main className="col-12 col-md-8 map-main-content">
           <APIProvider apiKey={apiKey}>
             <GoogleMap
               className="googlemap-custom"
