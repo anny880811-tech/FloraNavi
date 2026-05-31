@@ -6,14 +6,27 @@ const Map = () => {
   const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY
   const defaultCenter = { lat: 23.703870, lng: 120.982020 }
   const [showCard, setShowCard] = useState(null)
+  const cityList = [...new Set(flowerData.map(item => item.location.city))]
+  const flowerList = [...new Set(flowerData.map(item => item.flower_name))]
 
   return (
     <div className="container mt-5">
       <div className="row mt-6">
-        <aside className="d-none d-md-block col-md-5 map-sidebar" style={{ width: '360px', padding: '24px', background: '#fcfbfa' }}>
-          <h2 className="sidebar-title">尋找花緒</h2>
-          <div className="filter-group">
-            <p style={{ color: '#666', fontSize: '14px' }}>篩選元件預留區...</p>
+        <aside className="d-none d-md-block col-md-5 map-sidebar">
+          <div className="block-custom">
+            <h2 className="sidebar-title mb-4">尋找花緒</h2>
+            <div className="filter-group">
+              <p>地區搜尋</p>
+              <select className="form-select select-city mb-4" aria-label="Default select example">
+                <option selected disabled>請選擇地區</option>
+                {cityList.map((city, index) => { return <option value={index} key={index}>{city}</option> })}
+              </select>
+              <p>花種搜尋</p>
+              <select className="form-select select-flower" aria-label="Default select example">
+                <option selected disabled>請選擇花種</option>
+                {flowerList.map((flower, index) => { return <option value={index} key={index}>{flower}</option> })}
+              </select>
+            </div>
           </div>
         </aside>
 
